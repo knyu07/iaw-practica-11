@@ -1,4 +1,4 @@
-# Práctica 11: Auditría de seguridad en Wordpress
+# Práctica 11: Auditoría de seguridad en Wordpress
 
 La herramienta WPScan CLI es un escáner de seguridad de WordPress de caja negra gratuito, para uso no comercial, escrito para profesionales de la seguridad y mantenedores de blogs para probar la seguridad de sus sitios.
 
