@@ -21,7 +21,7 @@ gem install wpscan
 
 Una vez instalado el WPScan con el comando ***wpscan --help* comprobamos.
 
-![](Imágenes/wcscan.png) 
+![](Imagenes/wcscan.png) 
 
 Para obtener la lista de plugins instalados de nuestro sitio ejecutamos:
 ```
