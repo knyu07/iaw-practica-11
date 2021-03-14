@@ -19,6 +19,21 @@ Instalamos el WPscan
 gem install wpscan 
 ```
 
+## COMANDOS DOCKER: 
+
+Para obtener la lista de plugins instalados en nuestro sitio WordPress podemos ejecutar:
+```
+docker run -it --rm wpscanteam/wpscan --url http://192.168.22.20  --enumerate p
+```
+Para realizar un escaneo completo de un sitio WordPress podemos ejecutar:
+```
+docker run -it --rm wpscanteam/wpscan --url http://DIRECCIÓN_IP
+```
+Para poder hacer uso del servicio de la API de WPScan,es necesario registrarse en su web y obtener un TOKEN.
+```
+docker run -it --rm wpscanteam/wpscan --url http://DIRECCIÓN_IP --api-token 8pIlWnF2dxbgfvyQfDAUaV3T3iafo0uO1K8OPr2KKRM
+```
+
 Una vez instalado el WPScan con el comando ***wpscan --help* comprobamos.
 
 ![](imagenes/wpscan)
